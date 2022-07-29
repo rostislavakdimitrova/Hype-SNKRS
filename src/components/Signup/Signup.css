@@ -1,0 +1,65 @@
+form {
+    background-color: transparent;
+    padding: 0px 70px;
+    /*border: 0.2rem solid white;
+    border-radius: 20px;*/
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    opacity: 1;
+    background-color: royalblue;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+/*.fields {
+    color: black;
+}*/
+
+.fields-required {
+    margin-left:7rem;
+}
+
+.signupLink {
+    margin-left: 0.5rem;
+    text-decoration: underline; 
+    color: blue;
+}
+
+.reg-link {
+    margin-left: 4.5rem;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
